@@ -1,6 +1,6 @@
 # Sprachtandem Bot
 
-Posts on a Telegram group whenever someone new joins [sprachtandem.ch](http://sprachthandem.ch).
+Posts on a Telegram group whenever someone new joins [sprachtandem.ch](https://sprachthandem.ch).
 
 ![telegram_pic](https://i.imgur.com/pI9XyAD.png)
 
