@@ -32,6 +32,10 @@ they cannot send you messages until you have reached out to them yourself. In
 practice, this means you need to send the message `/schedule` to the bot you
 registered before it can post updates in the group.
 
+To abide by the message rate-limiting imposed by Telegram, a message queue
+is used. Newly-found users are added to the queue, which is emptied as fast
+as the rate-limit allows.
+
 ## Persistence
 
 A list of users already seen are stored in `sprachtandem.db` in the working
