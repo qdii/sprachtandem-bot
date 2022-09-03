@@ -31,3 +31,9 @@ To avoid flooding users, Telegram has placed a limitation on bots:
 they cannot send you messages until you have reached out to them yourself. In 
 practice, this means you need to send the message `/schedule` to the bot you
 registered before it can post updates in the group.
+
+## Persistence
+
+A list of users already seen are stored in `sprachtandem.db` in the working
+directory. This prevents the bot from re-posting already-seen users when
+restarting.
